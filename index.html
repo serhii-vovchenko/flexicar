@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Flexicar offers a wide range of dream cars for every taste and need. Whether you're looking for a stylish ride for a weekend getaway or a powerful vehicle for an unforgettable adventure, we have the perfect car for you. Experience flexibility, comfort, and luxury with Flexicar – the ultimate choice for car enthusiasts."
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+			integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+		<title>Flexicar - Cars of Your Dreams</title>
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container header-container">
+				<a class="header__logo" href="#">
+					<img src="./images/logo.svg" alt="logo" width="150" height="18" />
+				</a>
+
+				<div class="header__mobile-menu-wrapper">
+					<nav class="header__navlist">
+						<ul class="header__navigate-list">
+							<li class="header__navigate-item">
+								<a class="header__navigate-link" href="#">Book</a>
+							</li>
+
+							<li class="header__navigate-item">
+								<a class="header__navigate-link" href="#">Help</a>
+							</li>
+
+							<li class="header__navigate-item">
+								<a class="header__navigate-link" href="#">FAQ</a>
+							</li>
+
+							<li class="header__navigate-item">
+								<a class="header__navigate-link" href="#">Rental Policies</a>
+							</li>
+
+							<li class="header__navigate-item">
+								<a class="header__navigate-link" href="#">Blog&Guides</a>
+							</li>
+						</ul>
+					</nav>
+
+					<div class="header__actions">
+						<form class="header__lang-form">
+							<select class="header__lang-select" name="lang" id="header_lang">
+								<option class="header__lang-option" value="en">EN</option>
+								<option class="header__lang-option" value="ua">UA</option>
+							</select>
+						</form>
+
+						<div class="header__phone-wrapper">
+							<svg class="header__phone-svg" width="24" height="24">
+								<use href="./images/sprite.svg#icon-phone" />
+							</svg>
+							<a class="header__phone" href="tel:+1234567890">+123 456 7890</a>
+						</div>
+
+						<button class="header__login-button" type="button">
+							<svg class="header__login-svg" width="24" height="24">
+								<use href="./images/sprite.svg#icon-log-in" />
+							</svg>
+							<span>Sign In</span>
+						</button>
+					</div>
+				</div>
+
+				<div class="header__phone-wrapper-tablet">
+					<div class="header__phone-wrapper">
+						<svg class="header__phone-svg" width="24" height="24">
+							<use href="./images/sprite.svg#icon-phone" />
+						</svg>
+						<a class="header__phone" href="tel:+1234567890">+123 456 7890</a>
+					</div>
+
+					<button class="header__burger-button" type="button">
+						<svg class="header__burger-svg" width="24" height="24">
+							<use href="./images/sprite.svg#icon-menu" />
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="section__hero">
+				<div class="container hero__container">
+					<div class="hero__container-step-one">
+						<div class="hero__image-wrapper">
+							<img
+								class="hero__image"
+								src="./images/volkswagen-ouareg-min.png"
+								alt="volkswagen touareg"
+								width="361"
+								height="188"
+							/>
+						</div>
+
+						<div class="hero__characteristics">
+							<div class="hero__head-block">
+								<h1 class="hero__title">Volkswagen Touareg</h1>
+								<p class="hero__price">32,98 <span>EUR/day</span></p>
+							</div>
+
+							<div class="hero__middle-block">
+								<h3 class="hero__list-title">Included in Price</h3>
+								<ul class="hero__first-list">
+									<li class="hero__first-list-item">
+										<svg
+											class="hero__first-list-item-svg"
+											width="16"
+											height="16"
+										>
+											<use
+												href="./images/sprite.svg#icon-check-circle-broken"
+											/>
+										</svg>
+										<p class="hero__first-list-item-content">
+											Airport/City Fee
+										</p>
+									</li>
+
+									<li class="hero__first-list-item">
+										<svg
+											class="hero__first-list-item-svg"
+											width="16"
+											height="16"
+										>
+											<use
+												href="./images/sprite.svg#icon-check-circle-broken"
+											/>
+										</svg>
+										<p class="hero__first-list-item-content">Local Tax</p>
+									</li>
+
+									<li class="hero__first-list-item">
+										<svg
+											class="hero__first-list-item-svg"
+											width="16"
+											height="16"
+										>
+											<use
+												href="./images/sprite.svg#icon-check-circle-broken"
+											/>
+										</svg>
+										<p class="hero__first-list-item-content">
+											Registration Fee
+										</p>
+									</li>
+
+									<li class="hero__first-list-item">
+										<svg
+											class="hero__first-list-item-svg"
+											width="16"
+											height="16"
+										>
+											<use
+												href="./images/sprite.svg#icon-check-circle-broken"
+											/>
+										</svg>
+										<p class="hero__first-list-item-content">
+											Unlimited Mileage
+										</p>
+									</li>
+								</ul>
+							</div>
+
+							<div class="hero__bottom-block">
+								<ul class="hero__second-list">
+									<ul class="hero__second-list-item">
+										<svg
+											class="hero__second-list-item-svg"
+											style="fill: #fefeff; stroke: none"
+											width="16"
+											height="16"
+										>
+											<use href="./images/sprite.svg#icon-car-doors" />
+										</svg>
+										<p class="hero__second-list-item-content">5 Doors</p>
+									</ul>
+
+									<ul class="hero__second-list-item">
+										<svg
+											class="hero__second-list-item-svg"
+											width="16"
+											height="16"
+										>
+											<use
+												href="./images/sprite.svg#icon-tabler-manual-gearbox"
+											/>
+										</svg>
+										<p class="hero__second-list-item-content">5 Manual</p>
+									</ul>
+
+									<ul class="hero__second-list-item">
+										<svg
+											class="hero__second-list-item-svg"
+											width="16"
+											height="16"
+										>
+											<use href="./images/sprite.svg#icon-luggage-01" />
+										</svg>
+										<p class="hero__second-list-item-content">3 Suitcase</p>
+									</ul>
+
+									<ul class="hero__second-list-item">
+										<svg
+											class="hero__second-list-item-svg"
+											width="16"
+											height="16"
+										>
+											<use href="./images/sprite.svg#icon-users-01" />
+										</svg>
+										<p class="hero__second-list-item-content">5 Passengers</p>
+									</ul>
+								</ul>
+							</div>
+						</div>
+						<button class="hero__button" type="button">
+							Proceed to Booking
+						</button>
+					</div>
+
+					<div class="hero__container-step-two">
+						<div class="hero__preview-block">
+							<ul class="hero__preview-block-list">
+								<li class="hero__preview-block-item">
+									<span class="hero__preview-block-marker"></span>
+									<p class="hero__preview-block-content">Add on extras</p>
+								</li>
+
+								<li class="hero__preview-block-item">
+									<span class="hero__preview-block-marker"></span>
+									<p class="hero__preview-block-content">Insurance</p>
+								</li>
+
+								<li class="hero__preview-block-item">
+									<span class="hero__preview-block-marker"></span>
+									<p class="hero__preview-block-content">Confirm Order</p>
+								</li>
+
+								<li class="hero__preview-block-item">
+									<span class="hero__preview-block-marker"></span>
+									<p class="hero__preview-block-content">Payment</p>
+								</li>
+							</ul>
+
+							<div class="hero__preview-block-car">
+								<img
+									class="hero__preview-block-img"
+									src="./images/volkswagen-ouareg-icon.png"
+									alt="volkswagen touareg"
+									width="74"
+									height="48"
+								/>
+								<div class="hero__preview-block-info">
+									<h2 class="hero__preview-block-title">Volkswagen Touareg</h2>
+									<p class="hero__preview-block-desc">
+										or similar Intermediate
+									</p>
+									<p class="hero__preview-block-time">1 rental day</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="hero__extras-block">
+							<h2 class="hero__extras-block-title">Add on extras</h2>
+							<ul class="hero__extras-block-list">
+								<li class="hero__extras-block-item">
+									<div class="hero__extras-block-item-info">
+										<svg
+											class="hero__extras-block-item-svg"
+											width="20"
+											height="20"
+										>
+											<use href="./images/sprite.svg#icon-infinity" />
+										</svg>
+										<p class="hero__extras-block-item-desc">
+											Unlimited Mileage
+										</p>
+										<p class="hero__extras-block-item-price">15 EUR</p>
+									</div>
+									<button class="hero__extras-block-item-button" type="button">
+										<svg
+											class="hero__extras-block-btn-svg"
+											width="24"
+											height="24"
+										>
+											<use href="./images/sprite.svg#icon-plus" />
+										</svg>
+									</button>
+								</li>
+
+								<li class="hero__extras-block-item">
+									<div class="hero__extras-block-item-info">
+										<svg
+											class="hero__extras-block-item-svg"
+											width="20"
+											height="20"
+										>
+											<use href="./images/sprite.svg#icon-globe-05" />
+										</svg>
+										<p class="hero__extras-block-item-desc">Cross-border Fee</p>
+										<p class="hero__extras-block-item-price">15 EUR</p>
+									</div>
+									<button class="hero__extras-block-item-button" type="button">
+										<svg
+											class="hero__extras-block-btn-svg"
+											width="24"
+											height="24"
+										>
+											<use href="./images/sprite.svg#icon-plus" />
+										</svg>
+									</button>
+								</li>
+
+								<li class="hero__extras-block-item">
+									<div class="hero__extras-block-item-info">
+										<svg
+											class="hero__extras-block-item-svg"
+											width="20"
+											height="20"
+										>
+											<use
+												href="./images/sprite.svg#icon-park-outline-petrol"
+											/>
+										</svg>
+										<p class="hero__extras-block-item-desc">
+											Full Tank Service
+										</p>
+										<p class="hero__extras-block-item-price">15 EUR</p>
+									</div>
+									<button class="hero__extras-block-item-button" type="button">
+										<svg
+											class="hero__extras-block-btn-svg"
+											width="24"
+											height="24"
+										>
+											<use href="./images/sprite.svg#icon-plus" />
+										</svg>
+									</button>
+								</li>
+
+								<li class="hero__extras-block-item">
+									<div class="hero__extras-block-item-info">
+										<svg
+											class="hero__extras-block-item-svg"
+											style="fill: #bdbdbe"
+											width="20"
+											height="20"
+										>
+											<use href="./images/sprite.svg#icon-baby-seat2" />
+										</svg>
+										<p class="hero__extras-block-item-desc">Child Seat</p>
+										<p class="hero__extras-block-item-price">15 EUR</p>
+									</div>
+									<button class="hero__extras-block-item-button" type="button">
+										<svg
+											class="hero__extras-block-btn-svg"
+											width="24"
+											height="24"
+										>
+											<use href="./images/sprite.svg#icon-plus" />
+										</svg>
+									</button>
+								</li>
+
+								<li class="hero__extras-block-item">
+									<div class="hero__extras-block-item-info">
+										<svg
+											class="hero__extras-block-item-svg"
+											width="20"
+											height="20"
+										>
+											<use
+												href="./images/sprite.svg#icon-navigation-pointer-01"
+											/>
+										</svg>
+										<p class="hero__extras-block-item-desc">
+											GPS Navigation System
+										</p>
+										<p class="hero__extras-block-item-price">15 EUR</p>
+									</div>
+									<button class="hero__extras-block-item-button" type="button">
+										<svg
+											class="hero__extras-block-btn-svg"
+											width="24"
+											height="24"
+										>
+											<use href="./images/sprite.svg#icon-plus" />
+										</svg>
+									</button>
+								</li>
+
+								<li class="hero__extras-block-item">
+									<div class="hero__extras-block-item-info">
+										<svg
+											class="hero__extras-block-item-svg"
+											width="20"
+											height="20"
+										>
+											<use href="./images/sprite.svg#icon-wifi" />
+										</svg>
+										<p class="hero__extras-block-item-desc">
+											Wi-Fi HotspotWi-Fi Hotspot
+										</p>
+										<p class="hero__extras-block-item-price">15 EUR</p>
+									</div>
+									<button class="hero__extras-block-item-button" type="button">
+										<svg
+											class="hero__extras-block-btn-svg"
+											width="24"
+											height="24"
+										>
+											<use href="./images/sprite.svg#icon-plus" />
+										</svg>
+									</button>
+								</li>
+
+								<li class="hero__extras-block-item">
+									<div class="hero__extras-block-item-info">
+										<svg
+											class="hero__extras-block-item-svg"
+											style="fill: #bdbdbe"
+											width="20"
+											height="20"
+										>
+											<use href="./images/sprite.svg#icon-additional-driver" />
+										</svg>
+										<p class="hero__extras-block-item-desc">
+											Additional Driver
+										</p>
+										<p class="hero__extras-block-item-price">15 EUR</p>
+									</div>
+									<button class="hero__extras-block-item-button" type="button">
+										<svg
+											class="hero__extras-block-btn-svg"
+											width="24"
+											height="24"
+										>
+											<use href="./images/sprite.svg#icon-plus" />
+										</svg>
+									</button>
+								</li>
+
+								<li class="hero__extras-block-item">
+									<div class="hero__extras-block-item-info">
+										<svg
+											class="hero__extras-block-item-svg"
+											width="20"
+											height="20"
+										>
+											<use href="./images/sprite.svg#icon-headphones-01" />
+										</svg>
+										<p class="hero__extras-block-item-desc">
+											Roadside assistance waiver
+										</p>
+										<p class="hero__extras-block-item-price">15 EUR</p>
+									</div>
+									<button class="hero__extras-block-item-button" type="button">
+										<svg
+											class="hero__extras-block-btn-svg"
+											width="24"
+											height="24"
+										>
+											<use href="./images/sprite.svg#icon-plus" />
+										</svg>
+									</button>
+								</li>
+							</ul>
+						</div>
+						<button class="header__step-two-button" type="button">
+							Continue
+						</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>Footer</p>
+		</footer>
+		<script type="module" src="./js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+	font-family: 'Inter', sans-serif;
+	font-optical-sizing: auto;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: normal;
+	color: #fefeff;
+	background-color: #121214;
+}
+
+button {
+	color: #fefeff;
+}
+
+.container {
+	padding: 0 16px;
+	min-width: 320px;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		padding: 0 32px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.container {
+		padding: 0 110px;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.container {
+		padding: 0 228px;
+		max-width: 1920px;
+	}
+}
