@@ -37,6 +37,7 @@
 	visibility: visible;
 	pointer-events: auto;
 	transform: translateX(0);
+	z-index: 5;
 }
 
 .header__navlist {
@@ -58,6 +59,12 @@
 	color: #bdbdbe;
 	font-size: 24px;
 	font-weight: 700;
+
+	transition: ease color 0.3s;
+
+	&:hover {
+		color: #c5a085;
+	}
 }
 
 .header__actions {
@@ -105,6 +112,12 @@
 .header__phone {
 	font-size: 16px;
 	color: #919192;
+
+	transition: ease color 0.3s;
+
+	&:hover {
+		color: #c5a085;
+	}
 }
 
 .header__login-button {
@@ -121,6 +134,12 @@
 	justify-content: center;
 	align-items: center;
 	gap: 8px;
+
+	transition: ease background-color 0.3s;
+
+	&:hover {
+		background-color: #c5a085;
+	}
 }
 
 .header__login-svg {
@@ -240,5 +259,11 @@
 		width: 24px;
 		height: 24px;
 		stroke: #bdbdbe;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.header-container {
+		max-width: 1920px;
 	}
 }

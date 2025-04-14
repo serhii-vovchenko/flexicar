@@ -34,6 +34,5 @@ button {
 @media screen and (min-width: 1920px) {
 	.container {
 		padding: 0 228px;
-		max-width: 1920px;
 	}
 }
